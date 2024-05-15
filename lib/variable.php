@@ -1,0 +1,37 @@
+<?php
+session_start();
+date_default_timezone_set('Asia/calcutta');
+define("base_url","https://sanchariindia.in/");
+
+$baseurl = '';
+$site_title = "Sanchari India";
+$title = "Admin - Sanchari India";
+$tblAdmin = 'admin';
+$tblUser = 'user';
+$tblCountry = 'country';
+$tblSubCategory = 'subcategory';
+$tblSubCategoryType = 'subcategory_type';
+$tblState = 'state';
+$tblCity = 'city';
+$tblArea = 'area';
+$tblCategory = 'category';
+$tblSubCategory = 'subcategory';
+$tblProduct = 'product';
+$tblOrder = 'tbl_order';
+$tblOrderItem = 'order_item';
+$tblBanner = 'banner';
+$tblFeedback = 'feedback';
+$tblAddon = 'product_addon';
+$tblProductImage = 'product_image';
+$tblProductItem = 'product_item';
+$tblUser = 'user';
+$tblSlider = 'slider';
+$tblBrand = 'brand';
+$tblQty = 'qty';
+$tblStage = 'stage';
+$tblDiscount = 'discount';
+$tblStock = 'stock';
+$tblRating = 'rating';
+$tblEmail = 'email';
+$tblUnique = 'uniquefcm';
+$tblPopup='app_front_offer';
